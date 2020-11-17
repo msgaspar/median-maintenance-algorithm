@@ -9,4 +9,4 @@ One approach for this problem would be to recompute the median from scratch in e
 
 Using heaps, we can do better and solve the median maintenance problem in just _logarithmic_ time per round. The key idea is to maintain two heaps that will be balanced and store each one half of the elements. The heaps will grant access to the highest element of the heap that contains the lower values and to the lowest element of the heap that contains the higher elements, with running time of _O_(log*i*) for the heap operations.
 
-> More information about this solution can be found in the book [Algorithms Illuminated Part 2, by Tim Roughgarden](algorithmsilluminated.org).
+> More information about this solution can be found in the book [Algorithms Illuminated Part 2, by Tim Roughgarden](http://algorithmsilluminated.org).
